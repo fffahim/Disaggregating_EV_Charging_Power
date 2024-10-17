@@ -1,0 +1,16 @@
+{
+    "resnet_seq2seq" : {
+        "input_size" : 7,
+        "output_size" : 1,
+        "hidden_size" : 128,
+        "epochs" : 50,
+        "batch_size" : 512,
+        "learning_rate" : 0.001,
+        "split_date" : "2018-08-31 23:00:00",
+        "data_path" : "Dataset/pecan_street/austin/house_energy_compressed/",
+        "num_layers" : 3,
+        "lag_size" : 50,
+        "train" : [661, 1642],
+        "test" : [8156]
+    }
+}
